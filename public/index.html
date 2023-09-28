@@ -519,9 +519,11 @@
             visitor: {
               id: visitor || 'VISITOR-UNIQUE-ID',
               role: role || 'user',
+              email: email || 'email',
             },
             account: {
               id: account_id || 'ACCOUNT-UNIQUE-ID',
+              email: email || 'email',
             },
           });
         })('YOUR-PENDO-API-KEY-HERE');
